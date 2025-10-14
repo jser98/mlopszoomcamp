@@ -205,3 +205,16 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# MLOps Zoomcamp / Data Science Files
+# -----------------------------------
+
+# Ignore MLflow tracking data and artifacts
+mlruns/
+mlflow.db
+
+# Ignore large data files
+data/
+
+# Ignore any downloaded installers
+*.sh
